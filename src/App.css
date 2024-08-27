@@ -1,0 +1,44 @@
+/* App.css */
+
+/* Base Styles */
+body {
+  background-color: #f3f4f6; /* Light gray background */
+  color: #1f2937; /* Dark gray text color */
+  font-family: 'Roboto', sans-serif; /* Use a clean, modern font */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #111827; /* Darker gray for headers */
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #3b82f6; /* Blue color for links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1e40af; /* Darker blue on hover */
+  text-decoration: underline;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
