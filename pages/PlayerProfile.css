@@ -1,0 +1,119 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+/* Set a background image for the entire page */
+body {
+  background: url('http://getwallpapers.com/wallpaper/full/8/2/5/1053636-popular-basketball-court-wallpapers-2560x1707.jpg') no-repeat center center fixed;
+  background-size: cover; /* Cover the whole viewport */
+}
+
+/* Style for the profile container */
+.profile-container {
+  background-color: rgba(255, 255, 255, 0.719); /* Slightly opaque white background for content */
+  padding: 2rem; /* Add padding inside the container */
+}
+
+/* Style for the profile title */
+.profile-title {
+  font-size: 2.5rem; /* Larger font size for the title */
+  text-align: center; /* Center-align the title */
+  margin-bottom: 1.5rem; /* Space below the title */
+  font-family: 'Orbitron', sans-serif; /* Apply Orbitron font */
+}
+
+/* Style for the profile image container */
+.profile-image-container {
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center the image horizontally */
+  margin-bottom: 1.5rem; /* Space below the image container */
+}
+
+/* Style for the profile image */
+.profile-image {
+  width: 300px; /* Set width of the profile image */
+  height: 300px; /* Set height of the profile image */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  border: 2px solid #ddd; /* Optional: add a border for better contrast */
+  border-radius: 16px; /* Rounded corners for the image */
+}
+
+/* Style for the profile information text */
+.profile-info {
+  font-size: 1.2rem; /* Font size for profile info */
+  margin-bottom: 1rem; /* Space below the profile info */
+  text-align: center; /* Center-align the text */
+  font-family: 'Orbitron', sans-serif; /* Apply Orbitron font */
+}
+
+/* Style for the profile bio container */
+.profile-bio-container {
+  background-color: #ffffff; /* Solid white background for the bio container */
+  padding: 1.5rem; /* Padding inside the bio container */
+  border-radius: 8px; /* Rounded corners for the bio container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect for depth */
+  margin-bottom: 2rem; /* Space below the bio container */
+}
+
+/* Style for the profile bio text */
+.profile-bio {
+  font-size: 1.25rem; /* Increase the font size for readability */
+  margin-bottom: 2rem; /* Space below the bio text */
+  text-align: center; /* Center-align the text */
+  font-family: 'Bebas Neue', sans-serif; /* Apply Bebas Neue font for a cool sports theme */
+  line-height: 1.6; /* Line height for better readability */
+}
+
+/* Style for paragraphs inside the profile bio */
+.profile-bio p {
+  margin-bottom: 20px; /* Add space between paragraphs */
+  line-height: 1.6; /* Line height for readability */
+}
+
+/* Style for strong elements inside the profile bio */
+.profile-bio strong {
+  display: block; /* Make the strong elements block-level */
+  margin-bottom: 10px; /* Space below the strong elements */
+  font-weight: bold; /* Make text bold */
+  font-family: 'Bebas Neue', sans-serif; /* Apply Bebas Neue font */
+}
+
+/* Style for unordered lists inside the profile bio */
+.profile-bio ul {
+  list-style-position: inside; /* Ensure bullets are inside the container */
+  padding-left: 0; /* Remove default padding */
+}
+
+/* Style for list items inside the profile bio */
+.profile-bio li {
+  text-align: center; /* Center each list item */
+  margin-bottom: 0.5rem; /* Space between list items */
+}
+
+/* Style for profile links */
+.profile-links {
+  text-align: center; /* Center-align the links */
+}
+
+/* Style for individual profile links */
+.profile-link {
+  display: block; /* Display links as block elements */
+  font-size: 1.1rem; /* Font size for the links */
+  font-weight: bold; /* Make the link text bold */
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline from links */
+  margin-bottom: 0.5rem; /* Space below each link */
+  font-family: 'Orbitron', sans-serif; /* Apply Orbitron font */
+}
+
+/* Style for profile links on hover */
+.profile-link:hover {
+  text-decoration: underline; /* Underline the link on hover */
+}
+
+/* Style for loading text */
+.loading {
+  text-align: center; /* Center-align the loading text */
+  font-size: 1.2rem; /* Font size for the loading text */
+  color: #696969; /* Color for the loading text */
+}

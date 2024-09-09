@@ -1,0 +1,50 @@
+/* Import the custom font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.player-card {
+  background-color: #ffffff; /* White background for contrast */
+  border-radius: 16px; /* More rounded corners */
+  padding: 2rem; /* Increased padding */
+  text-align: center;
+  transition: box-shadow 0.3s, border 0.3s;
+  width: 400px; /* Larger card width */
+  margin: 30px auto; /* Center card with margin auto */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #e5e7eb; /* Light border color for a subtle outline */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Default shadow for floating effect */
+  font-family: 'Orbitron', sans-serif; /* Apply custom font */
+}
+
+.player-card:hover {
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3); /* More pronounced shadow on hover */
+  border: 2px solid #3b82f6; /* Bold border color on hover */
+}
+
+.player-image {
+  width: 300px; /* Larger squared image size */
+  height: 300px; /* Larger squared image size */
+  border-radius: 12px; /* Slightly rounded corners for the image */
+  object-fit: cover; /* Ensure image covers the square */
+  margin-bottom: 1.5rem; /* Space between image and text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for image clarity */
+}
+
+.player-name {
+  font-size: 2rem; /* Larger font size for name */
+  margin-top: 0.75rem;
+  font-weight: bold;
+}
+
+.player-team,
+.player-position {
+  font-size: 1.375rem; /* Larger font size for team and position */
+  color: #777;
+}
+
+.player-stats {
+  font-size: 1.375rem; /* Larger font size for stats */
+  color: #555;
+  margin-top: 1.5rem; /* Increased margin for spacing */
+}

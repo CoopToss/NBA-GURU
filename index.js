@@ -1,28 +1,15 @@
-const express = require('express');
-const path = require('path');
-const cors = require('cors');
-const app = express();
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import './pages/PlayerProfile.css';
 
-app.use(cors());
-app.use(express.json());
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
-// Serve static files from the React app
-app.use(express.static(path.join(__dirname, '..', 'build')));
-
-app.get('/api', (req, res) => {
-  res.send('Welcome to the NBA Stats API');
-});
-
-// The "catchall" handler: for any request that doesn't match one above,
-// send back React's index.html file.
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '..', 'build', 'index.html'));
-});
-
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
-
-const playersRouter = require('./routes/players');
-app.use('/api/players', playersRouter);
+reportWebVitals();

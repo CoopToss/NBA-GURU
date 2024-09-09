@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #000000;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* Center the menu items */
+  flex-grow: 1; /* Allows the menu to take up available space */
+  margin: 0; /* Remove default margin */
+}
+
+.navbar-menu li {
+  margin: 0 1rem; /* Adds spacing between menu items */
+}
+
+.navbar-menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navbar-menu li a:hover {
+  color: #ff6347;
+}

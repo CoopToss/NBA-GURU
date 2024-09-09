@@ -1,0 +1,62 @@
+/* Set a background image for the entire page */
+body {
+  background: url('http://getwallpapers.com/wallpaper/full/8/2/5/1053636-popular-basketball-court-wallpapers-2560x1707.jpg') no-repeat center center fixed;
+  background-size: cover; /* Ensure the background image covers the entire viewport */
+}
+
+/* Style for the home container */
+.home-container {
+  padding: 2rem; /* Add padding inside the container */
+}
+
+/* Style for the main title on the home page */
+.home-title {
+  font-size: 2.5rem; /* Large font size for the title */
+  text-align: center; /* Center-align the title */
+  margin-bottom: 1.5rem; /* Space below the title */
+  font-family: 'Roboto Slab', serif; /* Apply the Roboto Slab font */
+  color: #fff; /* White color for the title text */
+}
+
+/* Style for the banner section */
+.banner {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the banner image horizontally */
+  margin: 2rem 0; /* Vertical margin for spacing above and below the banner */
+}
+
+/* Style for the banner image */
+.banner-image {
+  width: 100%; /* Make the image responsive */
+  max-width: 1200px; /* Maximum width of the image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Style for page titles */
+.page-title {
+  font-size: 2.5rem; /* Large font size for page titles */
+  text-align: center; /* Center-align the title */
+  margin-bottom: 2rem; /* Space below the page title */
+}
+
+/* Style for the container holding player cards */
+.player-card-container {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack player cards vertically */
+  align-items: center; /* Center-align the player cards */
+}
+
+/* Style for the wrapper around each player card */
+.player-card-wrapper {
+  width: 100%; /* Full width of the container */
+  max-width: 800px; /* Maximum width for the player card */
+  margin-bottom: 2rem; /* Space below each player card */
+}
+
+/* Style for text elements during loading, errors, or when no players are available */
+.loading-text,
+.error-text,
+.no-players-text {
+  text-align: center; /* Center-align the text */
+  color: #555; /* Medium gray color for the text */
+}
